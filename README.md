@@ -2,11 +2,17 @@
 
 This project implements a base SPH solver [1] and extends it to create a Viscoelastic SPH solver [2] that utilizes parallel processing with OpenMP.
 
-The GIF bellow shows a render of the complete Viscoelastic SPH implementation running in real time:
+The GIFs bellow show renders of the complete Viscoelastic SPH implementation:
+
+<img src="./media/VSPHSpeed.gif" width="450">
+
+Figure 1: Viscoelastic SPH implementation sped up with clideo.com for better visualization.
+
+<br>
 
 <img src="./media/VSPH.gif" width="450">
 
-Figure 1: Viscoelastic SPH implementation running in real time.
+Figure 2: Viscoelastic SPH implementation running in real time.
 
 
 This project also implements a way to save the results of a simulation in CSV files and to read them, respectivelly on CsvWriter.h and CsvReader.h.
