@@ -15,7 +15,7 @@ Figure 1: Viscoelastic SPH implementation sped up with clideo.com for better vis
 Figure 2: Viscoelastic SPH implementation running in real time.
 
 
-This project also implements a way to save the results of a simulation in CSV files and to read them, respectivelly on CsvWriter.h and CsvReader.h.
+This project also implements a way to save the results of a simulation in CSV files and to read them, respectivelly in CsvWriter.h and CsvReader.h.
 
 ## Dependencies
 
